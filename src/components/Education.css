@@ -1,0 +1,47 @@
+.education-container {
+    background-color: #f8f9fa; /* Off-white background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.education-title {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #352F44;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-table th, .education-table td {
+    border: 1px solid #dee2e6; /* Light gray border */
+    padding: 10px;
+    text-align: left;
+}
+
+.education-table th {
+    background-color: #352F44; /* Purple background for header */
+    color: #FEF3E2; /* Light text color */
+    font-size: 1.2rem;
+}
+
+.education-table td {
+    background-color: #ffffff; /* White background for table cells */
+    color: #495057; /* Darker text color for readability */
+}
+
+.education-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+.education-table tr:hover {
+    background-color: #e9ecef; /* Highlight on hover */
+}
